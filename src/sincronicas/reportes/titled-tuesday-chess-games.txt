@@ -1,0 +1,40 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 48125
+Columnas: 10
+Duplicados: 6873
+
+Columnas y tipos:
+- username: object
+- white: bool
+- score: float64
+- accuracy: float64
+- rating: int64
+- tournament: object
+- round: int64
+- points: float64
+- rank: int64
+- possible_rank: int64
+
+Valores nulos por columna:
+- username: 0
+- white: 0
+- score: 0
+- accuracy: 9495
+- rating: 0
+- tournament: 0
+- round: 0
+- points: 0
+- rank: 0
+- possible_rank: 0
+
+Estadísticas numéricas:
+           score   accuracy     rating      round     points       rank  possible_rank
+count  48125.000  38630.000  48125.000  48125.000  48125.000  48125.000      48125.000
+mean       0.761     86.884   2928.252      6.000      4.797      2.741          2.741
+std        0.389      6.615    196.130      3.162      2.442      1.570          1.570
+min        0.000      0.000      0.000      1.000      0.000      1.000          1.000
+25%        0.500     82.720   2855.000      3.000      3.000      1.000          1.000
+50%        1.000     87.600   2939.000      6.000      5.000      3.000          3.000
+75%        1.000     91.770   3026.000      9.000      7.000      4.000          4.000
+max        1.000    100.000   3372.000     11.000     10.500      9.000          9.000
