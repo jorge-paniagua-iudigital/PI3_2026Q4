@@ -1,0 +1,40 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 40852
+Columnas: 10
+Duplicados: 5985
+
+Columnas y tipos:
+- username: object
+- white: bool
+- score: float64
+- precision_pct: float64
+- elo: int64
+- tournament: object
+- round: int64
+- points: float64
+- rank: int64
+- victoria_blancas: bool
+
+Valores nulos por columna:
+- username: 0
+- white: 0
+- score: 0
+- precision_pct: 0
+- elo: 0
+- tournament: 0
+- round: 0
+- points: 0
+- rank: 0
+- victoria_blancas: 0
+
+Estadísticas numéricas:
+           score  precision_pct        elo      round     points       rank
+count  40852.000      40852.000  40852.000  40852.000  40852.000  40852.000
+mean       0.770         87.282   2974.380      6.025      4.895      2.599
+std        0.381          5.922    101.267      3.161      2.447      1.499
+min        0.000          0.000   2800.000      1.000      0.000      1.000
+25%        0.500         84.180   2898.000      3.000      3.000      1.000
+50%        1.000         87.860   2964.000      6.000      5.000      2.000
+75%        1.000         91.060   3040.000      9.000      7.000      4.000
+max        1.000        100.000   3372.000     11.000     10.500      9.000
